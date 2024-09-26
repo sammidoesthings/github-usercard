@@ -3,6 +3,14 @@
     (replacing the placeholder with your Github name):
     https://api.github.com/users/<your name>
 */
+axios.get("https://api.github.com/users/sammidoesthings").then((axiosResp) => {
+  console.log(axiosResp)
+}).catch((error) => {
+  console.log(error)
+})
+
+// axios.get("url").then().catch();
+
 
 /*
   STEP 2: Inspect and study the data coming back, this is YOUR
